@@ -8,7 +8,7 @@ A modern, responsive task management application built with React + Vite that he
 
 ## 🚀 Live Demo
 
-👉 ......
+👉 https://khonnie.github.io/Eisenhower-matrix-app
 
 ---
 
@@ -141,6 +141,6 @@ If you like this project:
 
 ---
 
-##📄 License
+## 📄 License
 
 This project is open source and available under the MIT License.

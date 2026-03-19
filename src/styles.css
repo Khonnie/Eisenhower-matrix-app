@@ -238,9 +238,7 @@ display: flex;
   flex:0;
   margin: 0;
 }
-/* .task-left > * {
-  /* border: 1px solid red; /* Debugging borders */
-*/
+
 .task-left p{
   padding: 0;
   font-size: smaller;
