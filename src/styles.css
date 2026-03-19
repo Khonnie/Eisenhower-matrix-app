@@ -135,7 +135,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr ;
   gap: 16px;
-  height: 70vh;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 /* Quadrant */
@@ -144,8 +145,8 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  border-radius: 16px;
-  min-height: 150px;
+  border-radius: 12px;
+  min-height: 200px;
   overflow: hidden;
   background: #ffffff;
   backdrop-filter: blur(10px);/* glass effect blur*/
@@ -353,6 +354,7 @@ display: flex;
 .app-footer {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   padding: 16px 24px;
   margin-top: 40px;
@@ -366,7 +368,7 @@ display: flex;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 
   font-size: 13px;
-  color: #4b5563;
+  color: #666;
   transition: all 0.2s ease;
 }
 
@@ -393,6 +395,7 @@ display: flex;
 .footer-texts p {
   margin: 0;
   line-height: 1.2;
+
 }
 
 .credits {
@@ -432,10 +435,12 @@ display: flex;
 
 /* GUIDE CONTAINER */
 .guide {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
   background: #f9fafb;
   border-radius: 10px;
+  z-index: 1;
+  position:relative;
 }
 
 /* TITLE */
@@ -500,7 +505,7 @@ display: flex;
   
   .matrix{
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
   }
   .header{
     flex-direction: row;
@@ -520,6 +525,10 @@ display: flex;
   .guide-grid {
     grid-template-columns: repeat(2, 1fr); /* ✅ 2 columns */
     gap: 15px;
+  }
+  .app-footer{
+    display: flex;
+    flex-direction: row;
   }
 
 }
