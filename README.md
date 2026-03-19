@@ -1,18 +1,18 @@
 
 
-🧠 # Eisenhower Matrix Time Management Tool
+## 🧠 Eisenhower Matrix Time Management Tool
 
 A modern, responsive task management application built with React + Vite that helps users prioritize tasks using the Eisenhower Matrix — a proven productivity framework for organizing tasks by urgency and importance.
 
 ---
 
-🚀 # Live Demo
+## 🚀 Live Demo
 
 👉 ......
 
 ---
 
-✨ # Features
+## ✨ Features
 
 - ✅ Add, edit, and delete tasks
 - 📌 Organize tasks into 4 quadrants:
@@ -29,7 +29,7 @@ A modern, responsive task management application built with React + Vite that he
 
 ---
 
-🧩 # Tech Stack
+## 🧩 Tech Stack
 
 - React (Hooks, Functional Components)
 - Vite (Fast build tool)
@@ -38,7 +38,7 @@ A modern, responsive task management application built with React + Vite that he
 
 ---
 
-📱 # Mobile-First Design
+## 📱 Mobile-First Design
 
 This application is built using a mobile-first approach:
 
@@ -48,7 +48,7 @@ This application is built using a mobile-first approach:
 
 ---
 
-🎨 # UI Highlights
+## 🎨 UI Highlights
 
 - Sticky header with quick access to task input
 - Smooth scrolling and auto-focus on input
@@ -58,7 +58,7 @@ This application is built using a mobile-first approach:
 
 ---
 
-📂 # Project Structure
+## 📂 Project Structure
 
 src/
 │── components/
@@ -74,11 +74,11 @@ src/
 
 ---
 
-⚙️ # Installation & Setup
+## ⚙️ Installation & Setup
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/eisenhower-matrix-app.git
+git clone https://github.com/Khonnie/eisenhower-matrix-app.git
 
 2. Navigate into the project:
 
@@ -94,7 +94,7 @@ npm run dev
 
 ---
 
-🧠 # About the Eisenhower Matrix
+## 🧠 About the Eisenhower Matrix
 
 The Eisenhower Matrix is a productivity framework popularized by Dwight D. Eisenhower.
 
@@ -107,14 +107,14 @@ This method encourages better decision-making and improved productivity.
 
 ---
 
-🙌 # Acknowledgements
+## 🙌 Acknowledgements
 
 - Inspired by the productivity principles of Dwight D. Eisenhower
 - Drag-and-drop powered by @dnd-kit
 
 ---
 
-📌 # Future Improvements
+## 📌 Future Improvements
 
 - 💾 Local storage / database persistence
 - 🔐 Authentication system
@@ -124,14 +124,14 @@ This method encourages better decision-making and improved productivity.
 
 ---
 
-👩‍💻 # Author
+## 👩‍💻 Author
 
 Costance Manake
 Frontend Developer | Telecommunication Engineer
 
 ---
 
-⭐ # Support
+## ⭐ Support
 
 If you like this project:
 
@@ -141,6 +141,6 @@ If you like this project:
 
 ---
 
-📄 # License
+##📄 License
 
 This project is open source and available under the MIT License.
