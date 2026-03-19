@@ -527,8 +527,10 @@ display: flex;
     gap: 15px;
   }
   .app-footer{
-    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 5px;
   }
 
 }
