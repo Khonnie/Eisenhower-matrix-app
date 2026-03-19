@@ -136,7 +136,7 @@ body {
   grid-template-rows: 1fr ;
   gap: 16px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Quadrant */
@@ -446,6 +446,7 @@ display: flex;
 /* TITLE */
 .guide h3 {
   margin-bottom: 15px;
+  margin-top: 50px;
   font-size: 18px;
 }
 
@@ -506,6 +507,10 @@ display: flex;
   .matrix{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    
+  }
+  .quadrant{
+    height: 250px;
   }
   .header{
     flex-direction: row;
@@ -521,16 +526,22 @@ display: flex;
   }
   .guide {
     padding: 24px;
+    
   }
   .guide-grid {
     grid-template-columns: repeat(2, 1fr); /* ✅ 2 columns */
     gap: 15px;
+  }
+  .guide h3 {
+  margin-bottom: 15px;
+  margin-top: 0px;
   }
   .app-footer{
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
     gap: 5px;
+    
   }
 
 }
